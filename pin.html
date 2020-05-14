@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
-<body>
-	<form action="pinchange.jsp" method="post">
-		New Pin:<input type="text" name="newpin1"><br>
-		Confirm:<input type="text" name="newpin2"><br>
-		<input type="submit" value="Confirm">
-	</form>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script type = "text/javascript">
+         window.history.forward();
+			function noBack() { window.history.forward(); }
+		</script>
+   </head>
+   <body class="body-all" onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
+		<form action="pinchange.jsp" method="post">
+			<b>New Pin:</b> <input class="input-bar" type="password" name="newpin1" required><br>
+			<p><b>Confirm:</b> <input class="input-bar" type="password" name="newpin2" required></p><br>
+			<input class="submit-button" type="submit" value="Confirm">
+		</form>
 </body>
 </html>
