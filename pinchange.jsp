@@ -17,16 +17,33 @@
 	   if(pin1==pin2 && (pin.length() == 4))
 	   {
 		   st.executeUpdate("UPDATE accountholders SET pin = '"+pin1+"' WHERE accountid="+login+"");
-		   out.println("Pin changed successfully");
+		   out.println("<h2>Pin changed successfully!!</h2><br>");
 	   }
 	   else
 	   {
 		   out.println("Pin Mismatch<br>");
 	   }
-	   out.println("<a href='index.html'><button>Exit</button></a>");
    }
    catch(Exception e)
    {
-	   out.println(e);
+	   out.println("Problem encountered while changing the pin.<br>");
    }
 %>
+<html>
+   <head>
+   	  <link rel="stylesheet" href="style.css">
+      <script type = "text/javascript">
+         <!--
+            function Redirect() {
+               window.location = "index.html";
+            }            
+            document.write("You will be redirected to main page in 5 sec.");
+            setTimeout('Redirect()', 5000);
+         //-->
+         window.history.forward();
+			function noBack() { window.history.forward(); }
+		</script>
+   </head>
+   <body class="body-all" onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
+   </body>
+</html>
