@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+#index {
+	background-color: black;
+	background-image: url("home.PNG");
+	background-position: center; /* Center the image */
+	background-attachment: fixed;
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: 1000px 700px;
+	text-align: center;
+	margin-top: 300px;
+}
+.body-all {
+	background-color: black;
+	background-image: url("home2.png");
+	background-position: center; /* Center the image */
+	background-attachment: fixed;
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: 1000px 700px;
+	text-align: center;
+	margin-top: 275px;
+}
+.input-bar {
+	background-color: #C3C3C3;
+	border: solid 1px;
+}
+#pin-text {
+	margin-left: 45px;
+}
+.submit-button {
+	margin-left: 280px;
+	background-color: #e07c1f;
+	border-color: black;
+	font-size: 15px;
+}
+#withdraw-button{
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+#pin-button{
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+#balance-button{
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+#cancel-button{
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
