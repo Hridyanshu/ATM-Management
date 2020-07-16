@@ -1,50 +1,50 @@
 @charset "ISO-8859-1";
-#index {
-	background-color: black;
-	background-image: url("home.PNG");
-	background-position: center; /* Center the image */
-	background-attachment: fixed;
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: 1000px 700px;
-	text-align: center;
-	margin-top: 300px;
-}
+
 .body-all {
 	background-color: black;
-	background-image: url("home2.png");
+	background-image: url("background.jpg");
 	background-position: center; /* Center the image */
 	background-attachment: fixed;
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: 1000px 700px;
 	text-align: center;
-	margin-top: 275px;
+	margin-top: 375px;
 }
+
+#withdraw-body {
+	margin-right: 245px;
+}
+
 .input-bar {
 	background-color: #C3C3C3;
 	border: solid 1px;
+	margin-left: 10px;
 }
+
+.text {
+	margin-right: 245px;
+	font-weight: bold;
+}
+
 #pin-text {
 	margin-left: 45px;
 }
+
 .submit-button {
-	margin-left: 280px;
+	margin-right: 75px;
 	background-color: #e07c1f;
 	border-color: black;
-	font-size: 15px;
+	font-size: 12px;
+	font-weight: bold;
 }
-#withdraw-button{
-	margin-right: 0px;
+
+.home-button{
+	text-align: center;
+	margin-right: 250px;
+	margin-top: 0px;
 	margin-bottom: 10px;
-}
-#pin-button{
-	margin-right: 0px;
-	margin-bottom: 10px;
-}
-#balance-button{
-	margin-right: 0px;
-	margin-bottom: 10px;
-}
-#cancel-button{
-	margin-right: 0px;
-	margin-bottom: 10px;
+	background-color: #e07c1f;
+	border-color: black;
+	font-size: 12px;
+	font-weight: bold;
 }
