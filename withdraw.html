@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
+	
 		<link rel="stylesheet" href="style.css">
+		
 		<script type="text/javascript">
+			//eliminating backtracking
 			window.history.forward();
 			function noBack()
 			{
 				window.history.forward();
 			}
 		</script>
+		
 	</head>
+	
 	<body class="body-all" onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
+		
 		<form action="withdraw.jsp" method="post">
-			<b>Maximum amount for withdrawal : 15k</b><br>
-			<p><b>Amount : </b><input class="input-bar" type="text" name="amount" required><br></p>
+			<p class="text">Maximum amount for withdrawal : 15k<br>
+			<p class="text">Amount : <input class="input-bar" type="text" name="amount" required><br></p>
 			<p><input class="submit-button" type="submit" value="CONTINUE"></p>
 		</form> 
+	
 	</body>
+
 </html>
